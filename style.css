@@ -1,0 +1,40 @@
+/* style.css */
+body,
+html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+#buzzer-button {
+  margin-top: 30vh;
+  width: 124px;
+  height: 119px;
+  border: 0;
+  border-radius: 50%;
+  background-color: #48d1cc;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://www.myinstants.com/media/images/transparent_button_small_normal.png.pagespeed.ce.Q_pq0WnHY3.png");
+}
+
+#buzzer-button:active {
+  background-image: url("https://www.myinstants.com/media/images/transparent_button_small_pressed.png.pagespeed.ce.ApeRPoBIvd.png");
+}
+
+#timeDisplay {
+  margin-top: 30px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.hide {
+  display: none;
+}
